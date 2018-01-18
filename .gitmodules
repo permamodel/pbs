@@ -1,0 +1,6 @@
+[submodule "pbs-server"]
+	path = pbs-server
+	url = git@github.com:permamodel/pbs-server.git
+[submodule "pbs-executor"]
+	path = pbs-executor
+	url = git@github.com:permamodel/pbs-executor.git
