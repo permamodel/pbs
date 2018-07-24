@@ -4,3 +4,6 @@
 [submodule "pbs-executor"]
 	path = pbs-executor
 	url = git@github.com:permamodel/pbs-executor.git
+[submodule "docs/numpydoc"]
+	path = docs/numpydoc
+	url = git@github.com:numpy/numpydoc.git
