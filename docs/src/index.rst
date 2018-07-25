@@ -15,6 +15,17 @@ The Permafrost Benchmark System (PBS) is **rad**!
 pbs-executor
 ------------
 
+The `PBS executor <https://github.com/permamodel/pbs-executor>`_
+is deployed on a computational resource with ILAMB.
+It provides two tools,
+the `Model Ingest Tool`
+for uploading CMIP5 model outputs,
+and the `Benchmark Ingest Tool`
+for uploading benchmark datasets.
+These tools verify the uploaded files
+and place them in the proper location
+in the ILAMB directory tree.
+
 .. toctree::
    :maxdepth: 3
 
