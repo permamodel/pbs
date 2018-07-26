@@ -33,8 +33,7 @@ in the ILAMB directory tree.
    File module (executor) <pbs_executor.file>
    Ingest module <pbs_executor.ingest>
    Verify module <pbs_executor.verify>
-
-   Basic Model Interface (BMI) <pbs_executor.bmi>
+   Basic Model Interface (PBS) <pbs_executor.bmi>
 
 
 pbs-server
@@ -55,6 +54,21 @@ or benchmark datasets through the PBS.
    File module (server) <pbs_server.file>
    Models module <pbs_server.models>
    Variables module <pbs_server.variables>
+
+
+bmi-ilamb
+---------
+
+The `bmi-ilamb <https://github.com/permamodel/bmi-ilamb>`_
+package wraps `ILAMB <https://bitbucket.org/ncollier/ilamb>`_
+in a `Basic Model Interface <http://bmi-spec.readthedocs.io>`_,
+allowing ILAMB and the PBS tools to communicate.
+
+.. toctree::
+   :maxdepth: 2
+
+   Config module <bmi_ilamb.config>
+   Basic Model Interface (ILAMB) <bmi_ilamb.bmi>
 
 
 Indices and tables

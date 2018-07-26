@@ -18,6 +18,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('../../pbs-executor'))
 sys.path.insert(0, os.path.abspath('../../pbs-server'))
+sys.path.insert(0, os.path.abspath('../../bmi-ilamb'))
 sys.path.insert(0, os.path.abspath('../numpydoc'))
 sys.path.insert(0, os.path.abspath('.'))
 
