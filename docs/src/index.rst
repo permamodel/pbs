@@ -16,13 +16,14 @@ pbs-executor
 ------------
 
 The `PBS executor <https://github.com/permamodel/pbs-executor>`_
-is deployed on a computational resource with ILAMB.
+is deployed on a computational resource alonside
+`ILAMB <https://bitbucket.org/ncollier/ilamb>`_.
 It provides two tools,
 the `Model Ingest Tool`
 for uploading CMIP5 model outputs,
 and the `Benchmark Ingest Tool`
 for uploading benchmark datasets.
-These tools verify the uploaded files
+These tools verify uploaded files
 and place them in the proper location
 in the ILAMB directory tree.
 
