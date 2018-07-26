@@ -40,6 +40,15 @@ in the ILAMB directory tree.
 pbs-server
 ----------
 
+The `PBS server <https://github.com/permamodel/pbs-server>`_
+is deployed on a
+`WMT <https://csdms.colorado.edu/wiki/Tools_portal#WMT>`_ server.
+It constructs the configuration file used by
+`ILAMB <https://bitbucket.org/ncollier/ilamb>`_,
+and it handles any modifications to ILAMB metadata
+resulting from users uploading model outputs
+or benchmark datasets through the PBS.
+
 .. toctree::
    :maxdepth: 2
 
