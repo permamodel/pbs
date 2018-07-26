@@ -44,6 +44,8 @@ pbs-server
    :maxdepth: 2
 
    File module (server) <pbs_server.file>
+   Models module <pbs_server.models>
+   Variables module <pbs_server.variables>
 
 
 Indices and tables
