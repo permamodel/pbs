@@ -30,7 +30,7 @@ in the ILAMB directory tree.
 .. toctree::
    :maxdepth: 3
 
-   File module <pbs_executor.file>
+   File module (executor) <pbs_executor.file>
    Ingest module <pbs_executor.ingest>
    Verify module <pbs_executor.verify>
 
@@ -42,7 +42,8 @@ pbs-server
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+   File module (server) <pbs_server.file>
 
 
 Indices and tables
