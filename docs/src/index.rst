@@ -6,10 +6,24 @@
 Permafrost Benchmark System
 ===========================
 
+Developer documentation
+
 :Release: |release|
 :Date: |today|
 
-The Permafrost Benchmark System (PBS) is **rad**!
+The **Permafrost Benchmark System** (PBS)
+is a customized version of the
+`CSDMS Web Modeling Tool (WMT)
+<https://csdms.colorado.edu/wiki/Tools_portal#WMT>`_.
+It wraps the `ILAMB <https://bitbucket.org/ncollier/ilamb>`_
+benchmarking software with tools for uploading
+`CMIP5-compatible <https://cmip.llnl.gov/cmip5/output_req.html>`_
+model outputs and benchmark datasets.
+The PBS allows users access and run ILAMB remotely,
+without having to install software or data locally.
+
+The source for this developer documentation is available at
+https://github.com/permamodel/pbs.
 
 
 pbs-executor
