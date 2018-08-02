@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    background-color: #fff;
+    color: #3E4349;
+}
+
+body p, body dd, body li {
+    line-height: 1.4em;
+}
+
+a:hover {
+    color: #6D4100;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin: 30px 0px 10px 0px;
+    padding: 0;
+}
+
+h1 { margin-top: 0; padding-top: 0; font-size: 210%; }
+h2 { font-size: 180%; }
+h3 { font-size: 150%; }
+h4 { font-size: 130%; }
+h5 { font-size: 100%; }
+h6 { font-size: 100%; }
