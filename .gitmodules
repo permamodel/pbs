@@ -1,12 +1,12 @@
 [submodule "pbs-server"]
 	path = pbs-server
-	url = git@github.com:permamodel/pbs-server.git
+	url = https://github.com/permamodel/pbs-server.git
 [submodule "pbs-executor"]
 	path = pbs-executor
-	url = git@github.com:permamodel/pbs-executor.git
+	url = https://github.com/permamodel/pbs-executor.git
 [submodule "docs/numpydoc"]
 	path = docs/numpydoc
-	url = git@github.com:numpy/numpydoc.git
+	url = https://github.com/numpy/numpydoc.git
 [submodule "bmi-ilamb"]
 	path = bmi-ilamb
-	url = git@github.com:permamodel/bmi-ilamb.git
+	url = https://github.com/permamodel/bmi-ilamb.git
