@@ -106,3 +106,7 @@ ENV/
 
 # PBS
 ilamb.cfg
+
+# Jekyll testing for GitHub pages
+Gemfile.lock
+_site/
