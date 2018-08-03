@@ -63,7 +63,8 @@ instance/
 
 # Sphinx documentation
 docs/_build/
-docs/src/_build/
+docs/developer/_build/
+docs/user/_build/
 
 # PyBuilder
 target/
