@@ -32,7 +32,7 @@ is all that’s needed.
 
    Registration <registration>
    Logging in to the PBS <login>
-   The Layout of the PBS Interface <layout>
+   The PBS Interface <layout>
    Using the ModelIngestTool <model-tool>
    Using the BenchmarkIngestTool <benchmark-tool>
    Configuring an ILAMB Run <configure-ilamb>
