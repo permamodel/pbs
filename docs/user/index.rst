@@ -39,10 +39,7 @@ is all that’s needed.
    Running ILAMB <run-ilamb>
    Downloading Results <download-results>
 
-
-Indices and tables
-------------------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+The PBS project is supported by NASA grant NNX16AB19G,
+*A Permafrost Benchmark System to Evaluate Permafrost Models*.
+All content developed for this project is open source,
+released under the Apache 2.0 license.
