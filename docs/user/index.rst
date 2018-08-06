@@ -27,7 +27,7 @@ a web browser on a desktop, laptop, or tablet computer
 is all that’s needed.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    Registration <registration>
