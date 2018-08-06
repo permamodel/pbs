@@ -17,7 +17,7 @@ wraps the command-line
 `ILAMB <https://bitbucket.org/ncollier/ilamb>`_
 benchmarking software with a customized version of the
 `CSDMS Web Modeling Tool
-<https://csdms.colorado.edu/wiki/Tools_portal#WMT>`_ (WMT),
+<https://csdms.colorado.edu/wiki/CSDMS_Web_Modeling_Tool>`_ (WMT),
 and adds tools for uploading
 `CMIP5-compatible <https://cmip.llnl.gov/cmip5/output_req.html>`_
 model outputs and benchmark datasets.
