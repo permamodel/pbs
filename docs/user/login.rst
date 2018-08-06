@@ -10,7 +10,7 @@ although it should work on any modern browser.
 A screenshot of the login page is shown in :numref:`sign-in-screen` below.
 
 .. _sign-in-screen:
-.. figure:: ./figures/PBS-signin-screen.png
+.. figure:: ./images/PBS-signin-screen.png
    :scale: 33%
    :align: center
    :alt: The sign-in screen for the PBS
