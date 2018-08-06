@@ -6,10 +6,11 @@
 Permafrost Benchmark System
 ===========================
 
-Developer documentation
-
 :Release: |release|
 :Date: |today|
+
+Developer Guide
+---------------
 
 The **Permafrost Benchmark System** (PBS)
 is a customized version of the
