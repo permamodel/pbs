@@ -27,8 +27,12 @@ without having to install software or data locally;
 a web browser on a desktop, laptop, or tablet computer
 is all that's needed.
 
-The source for this developer documentation is available at
-https://github.com/permamodel/pbs.
+The source code described in this developer documentation
+is available at https://github.com/permamodel/pbs.
+The PBS developers welcome input from the community.
+Feel free to submit an issue,
+or fork any of the repositories that comprise the PBS,
+modify them, and send us a pull request.
 
 
 pbs-executor
