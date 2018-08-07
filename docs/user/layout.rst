@@ -9,9 +9,9 @@ It's divided into three panels:
 * :ref:`tool-panel`
 * :ref:`parameters-panel`
 
-as shown in :numref:`main-window`.
+as shown in :numref:`fig-main-window`.
 
-.. _main-window:
+.. _fig-main-window:
 .. figure:: ./images/PBS-main-window.png
    :scale: 66%
    :align: center
@@ -41,7 +41,89 @@ as well as to configure and run ILAMB.
 Tool panel
 ----------
 
-Tools, yeah.
+The Tool panel is where the PBS tools can be selected, saved, and run.
+It has three components:
+the Tool title, the Tool actions, and the Tool selector,
+as shown in :numref:`fig-tool-panel`.
+
+.. _fig-tool-panel:
+.. figure:: ./images/PBS-tool-panel.png
+   :scale: 75%
+   :align: center
+   :alt: The PBS Tool panel
+
+   The PBS Tool panel with its components.
+
+
+Tool title
+..........
+
+The Tool title shows the name given to a configured tool when saved.
+The default title is the generic "Tool 0".
+An asterisk "*" is shown next to the title
+if the current tool configuration is not saved.
+
+
+Tool actions
+............
+
+The Tool actions consist of a set of four buttons:
+Open, Save, Run, and More. 
+
+* Open - Presents a dialog with a list of tool configurations
+  previously saved in the PBS.
+* Save - Saves the tool currently displayed in the Tool panel. If this
+  is the first time saving the tool, a dialog is displayed that
+  allows the user to enter a name for the tool.
+* Run - Runs the currently displayed tool on a computational
+  resource. The tool has to be saved before it can be run.
+* More - Displays a droplist with several extra items, including Save
+  As, Delete, and View Run Status.
+
+
+Tool selector
+.............
+
+The PBS tools can be selected from the Tool selector.
+Initially, it's empty.
+Pressing the button reveals the list of the three available PBS tools:
+
+.. _fig-tool-selector:
+.. figure:: ./images/PBS-tool-selector.png
+   :scale: 75%
+   :align: center
+   :alt: The PBS Tool selector
+
+   The PBS Tool selector, showing the available PBS tools.
+
+Selecting ILAMB, for example, from the list results in:
+
+.. _fig-tool-selected:
+.. figure:: ./images/PBS-tool-selected.png
+   :scale: 75%
+   :align: center
+   :alt: Selecting the ILAMB tool
+
+   ILAMB selected in the PBS Tool selector.
+
+Clicking on the tool reveals the Tool options menu:
+
+.. _fig-tool-selected-options:
+.. figure:: ./images/PBS-tool-selected-options.png
+   :scale: 75%
+   :align: center
+   :alt: The Tool options menu
+
+   The Tool options menu for the ILAMB tool.
+
+The three items in this menu are:
+
+* Show parameters - Displays the parameters of the tool in
+  the :ref:`parameters-panel`.
+* Get information - Displays a dialog with information about the tool,
+  including the author, version, and a link to the tool's help page on
+  the CSDMS website.
+* Close - Removes the tool from the Tool selector.
 
 
 .. _parameters-panel:
@@ -49,4 +131,4 @@ Tools, yeah.
 Parameters panel
 ----------------
 
-Parameters, ya.
+Though initially blank, the Parameters panel is where the tunable parameters of the model components displayed in the Model panel can be viewed and edited. 
