@@ -56,6 +56,7 @@ in the ILAMB directory tree.
    File module (executor) <pbs_executor.file>
    Ingest module <pbs_executor.ingest>
    Verify module <pbs_executor.verify>
+   Utils module <pbs_executor.utils>
    Basic Model Interface (PBS) <pbs_executor.bmi>
 
 
