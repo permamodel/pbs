@@ -35,6 +35,7 @@ is all that’s needed.
    The PBS Interface <layout>
    Using the ModelIngestTool <model-tool>
    Using the BenchmarkIngestTool <benchmark-tool>
+   Saving a Tool <save-tool>
    Configuring an ILAMB Run <configure-ilamb>
    Running ILAMB <run-ilamb>
    Downloading Results <download-results>
