@@ -7,7 +7,7 @@ as shown in :numref:`fig-save-button`.
 
 .. _fig-save-button:
 .. figure:: ./images/PBS-save.png
-   :scale: 100%
+   :scale: 75%
    :align: center
    :alt: The Save button on the Tool panel
 
@@ -19,7 +19,7 @@ where you can change the name of the tool.
 
 .. _fig-save-dialog:
 .. figure:: ./images/PBS-save-dialog.png
-   :scale: 100%
+   :scale: 75%
    :align: center
    :alt: The Save/Save As dialog
 
