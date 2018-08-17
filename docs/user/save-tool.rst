@@ -25,6 +25,10 @@ where you can change the name of the tool.
 
    The Save/Save As dialog .
 
+Although the :doc:`ModelIngestTool<model-tool>`
+is used in these examples,
+the same process holds for any of the PBS tools.
+
 Note that the tool is saved in the PBS,
 not locally on your computer.
 Therefore, anywhere you can access the internet,
