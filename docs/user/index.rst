@@ -36,6 +36,7 @@ is all that’s needed.
    Using the ModelIngestTool <model-tool>
    Using the BenchmarkIngestTool <benchmark-tool>
    Saving a Tool <save-tool>
+   Running a Tool <run-tool>
    Configuring an ILAMB Run <configure-ilamb>
    Running ILAMB <run-ilamb>
    Downloading Results <download-results>
