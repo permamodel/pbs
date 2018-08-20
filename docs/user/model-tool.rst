@@ -17,11 +17,11 @@ for example:
 .. code-block:: bash
 
    tas_Amon_HADCM3_historical_r1i1p1_185001-200512.nc
+   gpp_Lmon_SiBCASA_historical_r1i1p1_198201-201012.nc
 
-
-
-From the main PBS window,
-start by selecting the **ModelIngestTool**
+To start,
+from the main PBS window,
+select the **ModelIngestTool**
 from the list of tools in the :ref:`tool-panel`,
 as shown in :numref:`fig-select-mit`.
 
@@ -60,8 +60,10 @@ in the the :ref:`parameters-panel`.
 
 As shown in :numref:`fig-mit-parameters`,
 up to five model output files can be uploaded
-locally from your machine
-and processed through this tool.
+and processed simultaneously through this tool.
+Files are uploaded locally from your computer.
+If you have more than five files to upload,
+you can create multiple instances of the ModelIngestTool.
 
 The last parameter in the table provides
 an option for overwriting
