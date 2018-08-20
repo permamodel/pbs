@@ -35,10 +35,9 @@ is all that’s needed.
    The PBS Interface <layout>
    Using the ModelIngestTool <model-tool>
    Using the BenchmarkIngestTool <benchmark-tool>
+   Using ILAMB <using-ilamb>
    Saving a Tool <save-tool>
    Running a Tool <run-tool>
-   Configuring an ILAMB Run <configure-ilamb>
-   Running ILAMB <run-ilamb>
    Downloading Results <download-results>
 
 The PBS project is supported by NASA grant NNX16AB19G,

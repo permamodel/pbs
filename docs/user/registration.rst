@@ -34,4 +34,4 @@ Once your registration is approved
 (usually within 1-2 business days),
 you'll receive an email with login credentials
 for the CSDMS computational reasource.
-The section :doc:`run-ilamb` explains how to use these credentials.
+The section :doc:`run-tool` explains how to use these credentials.
