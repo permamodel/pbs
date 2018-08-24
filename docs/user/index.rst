@@ -40,7 +40,7 @@ is all that’s needed.
    Running a Tool <run-tool>
    Downloading Results <download-results>
 
-The PBS project is supported by NASA grant NNX16AB19G,
+The PBS project is supported by NASA award 14-CMAC14-NNX16AB19G,
 *A Permafrost Benchmark System to Evaluate Permafrost Models*.
 All content developed for this project is open source,
 released under the Apache 2.0 license.

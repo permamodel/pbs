@@ -21,7 +21,7 @@ is all that's needed.
 <a href="https://csdms.colorado.edu/pbs" class="button">Login to the PBS</a>
 
 This project is supported by
-NASA grant NNX16AB19G,
+NASA award 14-CMAC14-NNX16AB19G,
 *A Permafrost Benchmark System to Evaluate Permafrost Models*.
 All content developed for this project is open source,
 released under the Apache 2.0 license.
