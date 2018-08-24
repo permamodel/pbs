@@ -60,7 +60,7 @@ in the the :ref:`parameters-panel`.
    :align: center
    :alt: The BenchmarkIngestTool parameters
 
-   The BenchamrkIngestTool parameters displayed in the PBS Parameters panel.
+   The BenchmarkIngestTool parameters displayed in the PBS Parameters panel.
 
 As shown in :numref:`fig-bit-parameters`,
 up to five benchmark data files can be uploaded
