@@ -38,7 +38,7 @@ is all that’s needed.
    Using ILAMB <using-ilamb>
    Saving a Tool <save-tool>
    Running a Tool <run-tool>
-   Downloading Results <download-results>
+   Viewing and Downloading Results <download-results>
 
 The PBS project is supported by NASA award 14-CMAC14-NNX16AB19G,
 *A Permafrost Benchmark System to Evaluate Permafrost Models*.

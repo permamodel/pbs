@@ -58,8 +58,8 @@ The page updates every 10 seconds.
    The **WMT Simulation Status** page.
 
 When the job completes,
-you can use the controls to view its output
-and download the results. 
+you can use the controls to
+:doc:`view its output and download the results<download-results>`.
 
 Although the :doc:`ModelIngestTool<model-tool>`
 is used in this example,
