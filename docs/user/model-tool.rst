@@ -64,6 +64,10 @@ and processed simultaneously through this tool.
 Files are uploaded locally from your computer.
 If you have more than five files to upload,
 you can create multiple instances of the ModelIngestTool.
+Under the hood,
+the PBS is adding model outputs using
+`instructions <https://ilamb.ornl.gov/doc/add_model.html#adding-a-model>`_
+given in the ILAMB documentation.
 
 The last parameter in the table provides
 an option for overwriting

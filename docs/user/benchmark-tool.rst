@@ -68,6 +68,10 @@ and processed simultaneously through this tool.
 Files are uploaded locally from your computer.
 If you have more than five files to upload,
 you can create multiple instances of the BenchmarkIngestTool.
+Under the hood,
+the PBS is adding benchmark data using
+`instructions <https://ilamb.ornl.gov/doc/add_data.html#adding-a-benchmark-dataset>`_
+given in the ILAMB documentation.
 
 The last parameter in the table provides
 an option for overwriting
