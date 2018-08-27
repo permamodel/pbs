@@ -171,22 +171,49 @@ By default, this option is turned off in the PBS.
 Regions section
 ...............
 
-Global is "On", by default.
+ILAMB can be constrained to run a benchmark analysis
+over only particular
+`regions <https://ilamb.ornl.gov/doc/ilamb_run.html#regions>`_
+of the globe.
+The *Regions* section of the ILAMB parameter list
+allows a user to configure how ILAMB
+uses regions in an analysis.
 
-Can select Global Fire Emissions Database (GFED) regions.
+.. _fig-ilamb-regions:
+.. figure:: ./images/PBS-ILAMB-regions.png
+   :scale: 75%
+   :align: center
+   :alt: ILAMB Regions section
 
-Can upload custom region.
-Instructions for creating a custom region file that can be read
-and processed by ILAMB are given in the ILAMB docs. (Ref)
+   The *Regions* section of the ILAMB tool parameters.
 
-https://ilamb.ornl.gov/doc/custom_regions.html
+By default,
+ILAMB uses the entire globe for a benchmarking analysis.
+The "Global" parameter can be toggled off.
+
+ILAMB allows users to select regions defined by the
+`Global Fire Emissions Database <http://www.globalfiredata.org/>`_
+in an analysis.
+In the PBS,
+these regions can be indivudually toggled on/off
+in the "GFED regions" menu.
+
+Further,
+ILAMB allows the use of custom regions.
+The ILAMB documentation gives
+`instructions <https://ilamb.ornl.gov/doc/custom_regions.html>`_
+for creating custom region files,
+in either plain text or netCDF,
+that can be read and processed by ILAMB.
+A custom region file created with these directions 
+can be uploaded through the PBS
+and used by ILAMB.
 
 
 Next steps
 ----------
 
-Once you've uploaded data and are satisfied 
-with the configuration of this tool,
+Once you're satisfied with the configuration of this tool,
 the next steps are to 1) save the tool, 2) run it,
 and 3) view its results.
 These topics are covered in the following sections:
@@ -194,8 +221,3 @@ These topics are covered in the following sections:
 * :doc:`save-tool`
 * :doc:`run-tool`
 * :doc:`download-results`
-
-While this section described how to upload benchmark data,
-similar actions for uploading model outputs
-are described in :doc:`model-tool`.
-
