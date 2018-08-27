@@ -31,9 +31,9 @@ copyright = '2018, Mark Piper'
 author = 'Mark Piper'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
