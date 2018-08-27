@@ -1,4 +1,4 @@
-# pbs
+# Permafrost Benchmark System
 
 This is a metapackage
 for the server and executor code
@@ -8,4 +8,5 @@ NSIDC, NAU, LANL, and CSDMS,
 for conducting benchmarking studies
 of permafrost models.
 
-This work is supported under NASA grant NNX16AB19G, A Permafrost Benchmark System to Evaluate Permafrost Models.
+This work is supported under NASA award 14-CMAC14-NNX16AB19G,
+*A Permafrost Benchmark System to Evaluate Permafrost Models*.

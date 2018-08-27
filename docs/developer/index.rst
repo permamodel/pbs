@@ -6,15 +6,16 @@
 Permafrost Benchmark System
 ===========================
 
-Developer documentation
-
 :Release: |release|
 :Date: |today|
+
+Developer Guide
+---------------
 
 The **Permafrost Benchmark System** (PBS)
 is a customized version of the
 `CSDMS Web Modeling Tool
-<https://csdms.colorado.edu/wiki/Tools_portal#WMT>`_ (WMT).
+<https://csdms.colorado.edu/wiki/CSDMS_Web_Modeling_Tool>`_ (WMT).
 It wraps the command-line-driven
 `ILAMB <https://bitbucket.org/ncollier/ilamb>`_
 benchmarking software with a web interface,
@@ -26,8 +27,12 @@ without having to install software or data locally;
 a web browser on a desktop, laptop, or tablet computer
 is all that's needed.
 
-The source for this developer documentation is available at
-https://github.com/permamodel/pbs.
+The source code described in this developer documentation
+is available at https://github.com/permamodel/pbs.
+The PBS developers welcome input from the community.
+Feel free to submit an issue,
+or fork any of the repositories that comprise the PBS,
+modify them, and send us a pull request.
 
 
 pbs-executor
@@ -51,6 +56,7 @@ in the ILAMB directory tree.
    File module (executor) <pbs_executor.file>
    Ingest module <pbs_executor.ingest>
    Verify module <pbs_executor.verify>
+   Utils module <pbs_executor.utils>
    Basic Model Interface (PBS) <pbs_executor.bmi>
 
 
@@ -59,7 +65,7 @@ pbs-server
 
 The `PBS server <https://github.com/permamodel/pbs-server>`_
 is deployed on a
-`WMT <https://csdms.colorado.edu/wiki/Tools_portal#WMT>`_ server.
+`WMT <https://csdms.colorado.edu/wiki/CSDMS_Web_Modeling_Tool>`_ server.
 It constructs the configuration file used by
 `ILAMB <https://bitbucket.org/ncollier/ilamb>`_,
 and it handles any modifications to ILAMB metadata
