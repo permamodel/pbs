@@ -108,7 +108,7 @@ by benchmark data using the ILAMB tool.
    :align: center
    :alt: ILAMB Models section
 
-   The *Models* section of the ILAMB tool parameters
+   The *Models* section of the ILAMB tool parameters.
 
 To select model outputs to be confronted in ILAMB,
 click to expand a collection,
@@ -133,25 +133,39 @@ for the CLASS-CTEM-N model in the MsTMIP collection.
 
    Selecting the CLASS-CTEM-N model from the MsTMIP collection.
 
+ILAMB has the ability to
+calculate a mean model from the selected inputs.
+By default, this option is turned off in the PBS.
+
 
 Variables section
 .................
 
-The *Variables* section contains three lists of variables,
-containins CMIP5 short names,
-that correspond to datasets for benchmarking.
+As shown in :numref:`fig-ilamb-variables`,
+the *Variables* section contains three lists of variables
+corresponding to datasets used for benchmarking in ILAMB.
+Any datasets uploaded through the BenchmarkIngestTool
+will appear here.
 
+.. _fig-ilamb-variables:
+.. figure:: ./images/PBS-ILAMB-variables.png
+   :scale: 75%
+   :align: center
+   :alt: ILAMB Variables section
 
-From one to three benchmark variables.
+   The *Variables* section of the ILAMB tool parameters.
 
+Each list entry is a CMIP5 short name.
+A minimum of one,
+and a maximum of three,
+variables can be selected for a benchmark analysis in the PBS.
 A default has been chosen for the first variable,
 but it can be changed.
 
-
-ILAMB has the capability to
+ILAMB has the ability to
 calculate relationships
-between benchmark variables..
-(ref ILAMB docs)
+between benchmark variables.
+By default, this option is turned off in the PBS.
 
 
 Regions section
@@ -159,11 +173,13 @@ Regions section
 
 Global is "On", by default.
 
-Can select GFED regions.
+Can select Global Fire Emissions Database (GFED) regions.
 
 Can upload custom region.
 Instructions for creating a custom region file that can be read
 and processed by ILAMB are given in the ILAMB docs. (Ref)
+
+https://ilamb.ornl.gov/doc/custom_regions.html
 
 
 Next steps
