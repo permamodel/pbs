@@ -21,7 +21,7 @@ the BenchmarkIngestTool or the ModelIngestTool,
 its interface in the PBS needs to be refreshed.
 To do so,
 as shown in :numref:`fig-reload-ilamb`,
-open the **More...** menu from the row of buttons
+open the **More** menu from the buttons
 atop the :ref:`tool-panel`
 and select **Reload components**.
 
@@ -71,8 +71,8 @@ First,
 in the *General* section,
 a text field allows you to attach a name to the ILAMB run.
 
-.. _fig-ilamb-params-1:
-.. figure:: ./images/PBS-ILAMB-params-1.png
+.. _fig-ilamb-general:
+.. figure:: ./images/PBS-ILAMB-general.png
    :scale: 75%
    :align: center
    :alt: ILAMB General parameters
@@ -98,12 +98,12 @@ including
    Christopher Schwalm (NAU);
 #. Any model outputs uploaded to the PBS through the ModelIngestTool.
 
-These collections are shown in :numref:`fig-ilamb-params-2`.
+These collections are shown in :numref:`fig-ilamb-models-1`.
 The outputs from these models can be confronted
 by benchmark data using the ILAMB tool.
 
-.. _fig-ilamb-params-2:
-.. figure:: ./images/PBS-ILAMB-params-2.png
+.. _fig-ilamb-models-1:
+.. figure:: ./images/PBS-ILAMB-models-1.png
    :scale: 75%
    :align: center
    :alt: ILAMB Models section
@@ -113,20 +113,20 @@ by benchmark data using the ILAMB tool.
 To select model outputs to be confronted in ILAMB,
 click to expand a collection,
 then flip a model's toggle from "Off" to "On".
-This is demonstrated below in :numref:`fig-ilamb-params-3`
-and :numref:`fig-ilamb-params-4`
+This is demonstrated below in :numref:`fig-ilamb-models-2`
+and :numref:`fig-ilamb-models-3`
 for the CLASS-CTEM-N model in the MsTMIP collection.
 
-.. _fig-ilamb-params-3:
-.. figure:: ./images/PBS-ILAMB-params-3.png
+.. _fig-ilamb-models-2:
+.. figure:: ./images/PBS-ILAMB-models-2.png
    :scale: 75%
    :align: center
    :alt: The MsTMIP models
 
    Expanding the collection of MsTMIP models in the *Models* section.
 
-.. _fig-ilamb-params-4:
-.. figure:: ./images/PBS-ILAMB-params-4.png
+.. _fig-ilamb-models-3:
+.. figure:: ./images/PBS-ILAMB-models-3.png
    :scale: 75%
    :align: center
    :alt: Selecting the CLASS-CTEM-N model
@@ -137,9 +137,33 @@ for the CLASS-CTEM-N model in the MsTMIP collection.
 Variables section
 .................
 
+The *Variables* section contains three lists of variables,
+containins CMIP5 short names,
+that correspond to datasets for benchmarking.
+
+
+From one to three benchmark variables.
+
+A default has been chosen for the first variable,
+but it can be changed.
+
+
+ILAMB has the capability to
+calculate relationships
+between benchmark variables..
+(ref ILAMB docs)
+
 
 Regions section
 ...............
+
+Global is "On", by default.
+
+Can select GFED regions.
+
+Can upload custom region.
+Instructions for creating a custom region file that can be read
+and processed by ILAMB are given in the ILAMB docs. (Ref)
 
 
 Next steps
