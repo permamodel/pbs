@@ -52,13 +52,14 @@ WMT requires the
 [wmt-metadata](https://github.com/csdms/wmt-metadata) packages.
 PBS requires the
 [pbs-server](https://github.com/permamodel/pbs-server) package.
+A web server is required.
 Some notes on setting up a PBS executor are given
 [here](https://csdms.colorado.edu/wiki/PbsServerDiluvium).
 
 
 ## Client
 
-The
+The `reference/pbs` branch of the
 [wmt-client](https://github.com/csdms/wmt-metadata)
-should be installed on the server
-using the `reference/pbs` branch.
+should be installed on the server.
+Build the client with `ant` or `mvn`.
