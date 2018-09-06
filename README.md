@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/117737831.svg)](https://zenodo.org/badge/latestdoi/117737831)
+
 # Permafrost Benchmark System
 
 The **Permafrost Benchmark System** (PBS)
