@@ -16,8 +16,7 @@ is all that's needed.
 * [Registration](https://goo.gl/forms/soVkta4cjCXJFf3K2) (required to run the PBS)
 * [Getting Started Guide](https://csdms.colorado.edu/pbs/user/)
 * [Developer Guide](https://csdms.colorado.edu/pbs/developer/)
-* [Report an issue](https://github.com/permamodel/pbs/issues)
-* [Contact the developers](mailto:csdmssupport@colorado.edu?subject=PBS%20information)
+* [Ask questions and report problems at the CSDMS Help Desk](https://github.com/csdms/help-desk)
 
 <a href="https://csdms.colorado.edu/pbs" class="button">Login to the PBS</a>
 
